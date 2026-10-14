@@ -15,10 +15,8 @@ Reverse-engineering and modding notes for **Ship Graveyard Simulator 2** (UE4.27
 - [Ship catalog](docs/ships.md) — all `DT_Ships` rows, naming layers, sizes, prices, LevelNames
 - [Modding guide](docs/modding.md) — minimum viable mod (duplicate a ship row)
 - [Key classes](docs/classes.md) — native / blueprint-relevant types from UE4SS dump
-
-## Project files
-
-- [ShipGraveyard2.uproject](docs/ShipGraveyard2.json) — engine association, modules, plugins
+- [Project descriptor](docs/ShipGraveyard2.json) / [full .uproject](docs/ShipGraveyard2.uproject.json)
+- [DT_Ships note](data/DT_Ships.json)
 
 ## Notes
 
