@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "ShipGraveyard2",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"UMG",
+				"Niagara",
+				"CoreUObject",
+				"PhysXVehicles"
+			]
+		}
+	],
+	"Plugins": [
+		{ "Name": "Menu", "Enabled": false },
+		{ "Name": "CircularDependenciesDetector", "Enabled": false },
+		{ "Name": "Water", "Enabled": true },
+		{ "Name": "DataprepEditor", "Enabled": true },
+		{ "Name": "OnlineSubsystemSteam", "Enabled": true },
+		{ "Name": "ImagePlate", "Enabled": true },
+		{ "Name": "FunctionalTestingEditor", "Enabled": true }
+	],
+	"TargetPlatforms": [ "WindowsNoEditor" ]
+}
