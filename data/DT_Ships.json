@@ -1,1 +1,9 @@
-PLACEHOLDER_WILL_REPLACE
+# DT_Ships (FModel export summary)
+
+Full 44-row data table lives at `/Game/Blueprints/Data/DT_Ships` (row struct `ShipData`).
+
+See [docs/ships.md](../docs/ships.md) for the complete catalog of keys, display names, prices, sizes, LevelNames, and test flags.
+
+Key fields per row: visibleInComputer, isTestShip, Image, Name, Description, Price, Size, Difficulty, Contracts, LevelName, maxResources, PotentialResourceValue, ConnectorHPMultiplier, AchievementName, RequiredDLC.
+
+Best donor rows for a simple mod: Tunacolada or Tunacolada_v2.
